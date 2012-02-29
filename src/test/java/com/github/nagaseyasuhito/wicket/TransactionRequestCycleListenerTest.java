@@ -33,7 +33,7 @@ public class TransactionRequestCycleListenerTest {
         this.tester.assertLabel("size", "5");
 
         // raise unique key violation
-        this.tester.startPage(InitializePage.class);
+        // this.tester.startPage(InitializePage.class);
         // this.tester.assertRenderedPage(InitializePage.class);
     }
 }
